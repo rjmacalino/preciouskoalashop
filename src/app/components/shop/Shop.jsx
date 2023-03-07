@@ -1,9 +1,13 @@
+'use client';
+
 import style from './shop.module.css'
 
 import Image from 'next/image'
 
 import img1 from '@/app/assets/shop-images/main-box.png'
 import buy_btn from '@/app/assets/shop-images/buy-btn.png'
+
+import { checkOut } from '@/app/functions/checkOut'
 
 
 
@@ -18,7 +22,17 @@ const Shop = () => {
       </h2>
       
       <div className={style.buy_btn_div}>
-        <Image src={buy_btn} className={style.buy_btn_img}></Image>
+          <Image src={buy_btn} className={style.buy_btn_img} onClick={(()=>{
+            checkOut({
+              lineItems: [
+                {
+                  price: "price_1MiqlNE7nZ1XXBrxIK8cgS8b",
+                  quantity: 1
+                }
+              ]
+            })
+          })}></Image>
+
       </div>
 
     </div>
