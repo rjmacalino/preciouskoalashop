@@ -1,0 +1,44 @@
+.container {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px;
+    color: #373737;
+
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #FFBD59;
+    font-weight: 400;
+}
+
+.main_image {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+.description {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.buy_btn_div {
+    margin: 1rem 0rem;
+    width: 100%;
+}
+
+
+.buy_btn_img {
+    width: 100%;
+    height: auto;
+}
