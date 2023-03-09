@@ -5,7 +5,7 @@ export async function checkOut({lineItems}) {
 
     const getStripe = () => {
         if(!stripePromise) {
-            stripePromise = loadStripe('pk_test_51MiZiiE7nZ1XXBrxiDlWs8GSZEg8fFUxDWlfKPbRH8JCoUGCM31XD6xuJNJo4uzyI0dJZtEMdoICrZWCLl4WyN0U00EtJIBDiu')
+            stripePromise = loadStripe('pk_live_51MiZiiE7nZ1XXBrxbRqokxjX8kxmbp7dniAzqEiFPxRuoUyyHFR9Mi1JxnlCgO2swQAE9v6Phi8HarC4mCyI31zA00xXhfY2eR')
         }
         return stripePromise;
     }
@@ -21,5 +21,3 @@ export async function checkOut({lineItems}) {
     })
 
 }
-
-// process.env.NEXT_PUBLIC_API_KEY
