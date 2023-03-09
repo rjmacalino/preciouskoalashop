@@ -26,14 +26,19 @@ const Shop = () => {
             checkOut({
               lineItems: [
                 {
-                  price: "price_1MjX9GE7nZ1XXBrxZ8R6qOQ3",
-                  quantity: 1
+                  price: "price_1MjYmfE7nZ1XXBrx09uGxrpU",
+                  quantity: 1,
                 }
               ]
             })
           })}></Image>
 
       </div>
+
+      {/* <a href="https://checkout.stripe.com/c/pay/cs_test_a1P53Hj3yZ34WTYV81r2pq0QEb2gY3SNsL9QAV7GDgz7TA7oB3grJH6iGP#fidkdWxOYHwnPyd1blpxYHZxWjA0SGxfbGxAMmtfNF1dR3d9bEFpUnY9QlZfQGI9Y0NQfUFSaWNOVWdXTT1PRmpQQkZINjRdQTN9cE9LT2oxcH98TDVhT19xQEhhakxGd19SRklpMVJ8SzVQNTVAcU9MR0FscCcpJ3VpbGtuQH11anZgYUxhJz8ncWB2cVowbkQzdUs0R2Y8V2g1Q0oxYm0neCUl">
+      <Image src={buy_btn} className={style.buy_btn_img}> </Image>
+      </a> */}
+
 
     </div>
   )
